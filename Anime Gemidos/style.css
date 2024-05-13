@@ -1,0 +1,39 @@
+*
+{
+    background-image: url(imagenes/wallpaper.jfif);
+   
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#botones
+{
+    display: flex;
+    
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.imgbtn
+{
+    width: 10rem;
+    height: fit-content;
+    margin: 1rem;
+}
+
+.imgbtn:hover
+{
+    width: 11rem;
+    cursor: pointer;
+}
+
